@@ -1,0 +1,33 @@
+Bước 1: Gọi TongMang(1, 5)
+Vì left không bằng right, nên chúng ta chia mảng thành hai phần:
+TongMang(1, 3) và TongMang(4, 5)
+
+Bước 2a: Gọi TongMang(1, 3)
+Vì left không bằng right, chia mảng thành:
+TongMang(1, 2) và TongMang(3, 3)
+
+Bước 3a: Gọi TongMang(1, 2)
+Vì left không bằng right, chia mảng thành:
+TongMang(1, 1) và TongMang(2, 2)
+
+Bước 4a: Gọi TongMang(1, 1)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là 1
+
+Bước 4b: Gọi TongMang(2, 2)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là 2
+
+Bước 3b: Gọi TongMang(3, 3)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là 3
+
+Bước 2b: Gọi TongMang(4, 5)
+Vì left không bằng right, chia mảng thành:
+TongMang(4, 4) và TongMang(5, 5)
+
+Bước 3a: Gọi TongMang(4, 4)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là 4
+
+Bước 3b: Gọi TongMang(5, 5)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là 5
+
+Kết quả cuối cùng: Tổng của mảng từ 1 đến 5 sẽ là tổng các giá trị trả 
+về từ các bước trên, tức là 1 + 2 + 3 + 4 + 5 = 15

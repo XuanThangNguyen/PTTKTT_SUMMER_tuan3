@@ -1,0 +1,13 @@
+E:\LuuDuLieuSinhVien\xuanthang\Tuan3\Tuan3\bin\Debug\Tuan3.exe.config
+E:\LuuDuLieuSinhVien\xuanthang\Tuan3\Tuan3\bin\Debug\Tuan3.exe
+E:\LuuDuLieuSinhVien\xuanthang\Tuan3\Tuan3\bin\Debug\Tuan3.pdb
+E:\LuuDuLieuSinhVien\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.exe
+E:\LuuDuLieuSinhVien\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.pdb
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\bin\Debug\Tuan3.exe.config
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\bin\Debug\Tuan3.exe
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\bin\Debug\Tuan3.pdb
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.csproj.AssemblyReference.cache
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.csproj.CoreCompileInputs.cache
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.exe
+C:\Users\xuanthang\OneDrive\Máy tính\pttktt\xuanthang\Tuan3\Tuan3\obj\Debug\Tuan3.pdb

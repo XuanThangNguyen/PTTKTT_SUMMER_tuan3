@@ -1,0 +1,33 @@
+Bước 1: Gọi TongMang2(arr, 0, 4)
+Vì left không bằng right, chia mảng thành hai phần:
+TongMang2(arr, 0, 2) và TongMang2(arr, 3, 4)
+
+Bước 2a: Gọi TongMang2(arr, 0, 2)
+Vì left không bằng right, chia mảng thành:
+TongMang2(arr, 0, 1) và TongMang2(arr, 2, 2)
+
+Bước 3a: Gọi TongMang2(arr, 0, 1)
+Vì left không bằng right, chia mảng thành:
+TongMang2(arr, 0, 0) và TongMang2(arr, 1, 1)
+
+Bước 4a: Gọi TongMang2(arr, 0, 0)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là arr[0] = 1
+
+Bước 4b: Gọi TongMang2(arr, 1, 1)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là arr[1] = 2
+
+Bước 3b: Gọi TongMang2(arr, 2, 2)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là arr[2] = 3
+
+Bước 2b: Gọi TongMang2(arr, 3, 4)
+Vì left không bằng right, chia mảng thành:
+TongMang2(arr, 3, 3) và TongMang2(arr, 4, 4)
+
+Bước 3a: Gọi TongMang2(arr, 3, 3)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là arr[3] = 4
+
+Bước 3b: Gọi TongMang2(arr, 4, 4)
+Vì left bằng right, trả về giá trị tại vị trí left, tức là arr[4] = 5
+
+Kết quả cuối cùng: Tổng của mảng từ 1 đến 5 sẽ là tổng các giá trị trả 
+về từ các bước trên, tức là 1 + 2 + 3 + 4 + 5 = 15

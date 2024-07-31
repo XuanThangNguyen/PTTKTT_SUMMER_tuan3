@@ -1,0 +1,18 @@
+Mảng đầu vào: [2, 5, 7, 9, 12, 15, 19, 22, 25]
+Mục tiêu: 15
+
+Bước 1: Khởi tạo left = 0 và right = 8 (độ dài của mảng - 1). Mảng này có 9 phần tử.
+
+Bước 2: Bắt đầu vòng lặp while (left <= right):
+
+Vòng lặp 1:
+
+mid = 0 + (8 - 0) / 2 = 4 (làm tròn xuống).
+arr[4] = 12 < 15, nên cập nhật left = mid + 1 = 5.
+Vòng lặp 2:
+
+mid = 5 + (8 - 5) / 2 = 6.
+arr[6] = 19 > 15, nên cập nhật right = mid - 1 = 5.
+Kết quả: Sau khi thực hiện vòng lặp, left = 5 và right = 5. 
+Tiếp tục vào vòng lặp thứ hai, mid = 5. arr[5] = 15, 
+mục tiêu được tìm thấy ở vị trí 5, trả về 5.
